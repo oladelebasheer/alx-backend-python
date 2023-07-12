@@ -4,7 +4,6 @@ import asyncio
 import random
 from typing import Generator
 
-
 async def async_generator() -> Generator[float, None, None]:
     """
     Each time asynchronously waits 1 second,
